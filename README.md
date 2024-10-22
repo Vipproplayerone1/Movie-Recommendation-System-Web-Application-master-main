@@ -26,14 +26,15 @@ Building a Movie Recommendation System web application using Django framework an
 - Numpy
 - Pandas 
 - Scipy
+- Scikit-learn
+
 
 #### Database
 SQLite
 
 ##### Requirements
 ```
-python 3.6
-pip3
+python
 virtualenv
 ```
 
@@ -52,13 +53,13 @@ cd ~/Destop/Movie-Recommender-System-Web-Application-master
 
 Create a new virtual environment in that directory
 ```
-python3.6 -m pip install virtualenv
-virtualenv venv -p python3.6
+pip install virtualenv
+virtualenv venv
 ```
 
 Activate virtual environment
 ```
-source venv/bin/activate
+venv/scripts/activate
 ```
 
 Command line to install all dependencies
